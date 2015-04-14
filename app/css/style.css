@@ -1,0 +1,9 @@
+body {
+    background: #f70;
+}
+
+@media (width: 200px) and (height: 300px) {}
+@media (width: 900px) and (height: 200px) {}
+@media (width: 400px) and (height: 200px) {}
+@media (width: 600px) and (height: 100px) {}
+@media (width: 140px) and (height: 140px) {}

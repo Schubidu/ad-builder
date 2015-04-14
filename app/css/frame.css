@@ -1,0 +1,37 @@
+section {
+    display: inline-block;
+    border: 1px solid rgba(0,0,0, .5);
+    margin: .625rem;
+}
+
+h1 {
+    padding: .125rem;
+    margin: 0;
+    line-height: 1;
+}
+
+iframe, img {
+    outline: 1px solid rgba(0,0,0, .5);
+}
+
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.panel {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.panel-body {
+    position: relative;
+}
+
+.fa {
+    font-size: 6em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
