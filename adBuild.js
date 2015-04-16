@@ -1,12 +1,12 @@
 var phridge = require('phridge');
 
-function screenshot(width, height, cb) {
-    var image_name = __dirname + '/ads/' + width + '_' + height + '.png';
+function screenshot(source, width, height, cb) {
+    var image_name = __dirname + '/ads/' + source + '_' + width + '_' + height + '.png';
 
     phridge.spawn({}).then(function (phantom) {
 
         var mydata = {
-            html: 'http://localhost:5000/ad.html',
+            html: 'http://localhost:5000/' + source + '.html',
             image_name: image_name,
             width: width,
             height: height
